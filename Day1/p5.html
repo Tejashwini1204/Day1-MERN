@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Limited-Time Sale - Popular Product</title>
+    <style>
+        /* General Body and Layout Styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+            color:Dark blue;
+        }
+
+        /* Headline Style */
+        .headline {
+            background-color:Black;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-size: 36px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        /* Main Content Section */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        /* Product Information Section */
+        .product-info {
+            background-color: Red;
+            border-radius: 8px;
+            padding: 30px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 900px;
+            margin-bottom: 40px;
+        }
+
+        .product-image {
+            width: 100%;
+            max-width: 400px;
+            margin-bottom: 30px;
+            <img src=watch.jpg" attribute="watch image">
+            
+        }
+
+        .product-description {
+            font-size: 18px;
+            color: white;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        .special-offer {
+            background-color: #f39c12;
+            color: white;
+            font-size: 24px;
+            padding: 15px;
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 30px;
+            border-radius: 5px;
+        }
+
+        .features-list {
+            list-style-type: none;
+            padding-left: 0;
+            font-size: 16px;
+            margin-bottom: 20px;
+        }
+
+        .features-list li {
+            padding-left: 20px;
+            list-style-type: square;
+            color: black;
+        }
+
+        .pricing {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .old-price {
+            font-size: 20px;
+            color: white;
+            text-decoration: line-through;
+        }
+
+        .new-price {
+            font-size: 30px;
+            color: black;
+            font-weight: bold;
+        }
+
+        .discount {
+            font-size: 24px;
+            color: green;
+            font-weight: bold;
+        }
+
+        .cta-btn {
+            background-color: purple;
+            color: white;
+            padding: 15px 30px;
+            font-size: 18px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+            text-align: center;
+            width: 100%;
+        }
+
+        .cta-btn:hover {
+            background-color: #34495e;
+        }
+
+        /* Testimonial Section */
+        .testimonial {
+            background-color: #f1f1f1;
+            padding: 20px;
+            border-radius: 8px;
+            text-align: center;
+            margin-bottom: 40px;
+            width: 80%;
+            max-width: 900px;
+        }
+
+        .testimonial p {
+            font-style: italic;
+            font-size: 18px;
+            color: black;
+        }
+
+        .testimonial cite {
+            font-size: 16px;
+            font-weight: bold;
+            color: #333;
+        }
+
+        /* Footer Section */
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Headline for Sale Introduction -->
+    <div class="headline">
+        <p>Exclusive Limited-Time Sale! Save Big on SmartWatch Z Pro</p>
+    </div>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <!-- Product Information Section -->
+        <div class="product-info">
+            <!-- Product Image -->
+            <img src="smartwatch-image.jpg" alt="SmartWatch Z Pro" class="product-image">
+
+            <!-- Special Offer Banner -->
+            <div class="special-offer">
+                <p><strong>Save 40% - Limited Time Only!</strong></p>
+            </div>
+
+            <!-- Product Description -->
+            <div class="product-description">
+                <p>Discover the power of technology with the <strong><em>SmartWatch Z Pro</em></strong>, packed with the latest features to keep you connected, healthy, and productive. Whether you’re tracking your fitness, receiving notifications, or just enjoying a sleek design, this smartwatch is your perfect companion. <strong><em>Don’t miss out on this amazing offer!</em></strong> Take advantage of the <span class="discount"><strong>40% discount</strong></span> while supplies last.</p>
+            </div>
+
+            <!-- Product Features -->
+            <ul class="features-list">
+                <li><strong>Advanced Heart Rate Monitor:</strong> Real-time heart rate tracking to monitor your health.</li>
+                <li><strong>Sleep Tracker:</strong> Detailed analysis of your sleep patterns to improve your rest.</li>
+                <li><strong>Waterproof Design:</strong> Safe to wear while swimming or during workouts.</li>
+                <li><strong>Long Battery Life:</strong> Up to 7 days of usage on a single charge.</li>
+                <li><strong>Fitness Tracker:</strong> Monitor your steps, calories burned, and more.</li>
+            </ul>
+
+            <!-- Pricing Section -->
+            <div class="pricing">
+                <div>
+                    <p class="old-price">$249.99</p>
+                    <p class="new-price">$149.99</p>
+                </div>
+                <div class="discount">Save 40%</div>
+            </div>
+
+            <!-- Call to Action Button -->
+            <button class="cta-btn" onclick="window.location.href='https://www.example.com/checkout'">Buy Now</button>
+        </div>
+
+        <!-- Testimonial Section -->
+        <div class="testimonial">
+            <p>"I love my SmartWatch Z Pro! It tracks my workouts, monitors my heart rate, and even helps me stay on top of my notifications. The design is sleek, and the battery lasts for days. I can't imagine going back to a regular watch!"</p>
+            <cite>- Alex J., Verified Buyer</cite>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 E-Commerce Store | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
